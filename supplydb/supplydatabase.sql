@@ -25,21 +25,19 @@ CREATE TABLE Catalog (
 
 
 
-
--- SUPPLIERS
 INSERT INTO Supplier VALUES (10001, 'Acme Widget', 'Bangalore');
 INSERT INTO Supplier VALUES (10002, 'Johns', 'Kolkata');
 INSERT INTO Supplier VALUES (10003, 'Vimal', 'Mumbai');
 INSERT INTO Supplier VALUES (10004, 'Reliance', 'Delhi');
 
--- PARTS
+
 INSERT INTO Parts VALUES (20001, 'Book', 'Red');
 INSERT INTO Parts VALUES (20002, 'Pen', 'Red');
 INSERT INTO Parts VALUES (20003, 'Pencil', 'Green');
 INSERT INTO Parts VALUES (20004, 'Mobile', 'Green');
 INSERT INTO Parts VALUES (20005, 'Charger', 'Black');
 
--- CATALOG
+
 INSERT INTO Catalog VALUES (10001, 20001, 10);
 INSERT INTO Catalog VALUES (10001, 20002, 10);
 INSERT INTO Catalog VALUES (10001, 20003, 30);
